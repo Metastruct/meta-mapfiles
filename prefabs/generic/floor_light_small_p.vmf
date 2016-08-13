@@ -1,7 +1,7 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "6920"
+	"editorbuild" "6411"
 	"mapversion" "1"
 	"formatversion" "100"
 	"prefab" "0"
@@ -14,7 +14,7 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "32"
+	"nGridSpacing" "64"
 	"bShow3DGrid" "0"
 }
 world
@@ -29,56 +29,55 @@ world
 }
 entity
 {
-	"id" "11"
+	"id" "2"
 	"classname" "prop_static"
-	"angles" "0 0 90"
+	"angles" "0 0 0"
 	"disableselfshadowing" "0"
 	"disableshadows" "0"
 	"disablevertexlighting" "0"
 	"fademaxdist" "0"
 	"fademindist" "-1"
 	"fadescale" "1"
-	"generatelightmaps" "0"
 	"ignorenormals" "0"
-	"lightmapresolutionx" "32"
-	"lightmapresolutiony" "32"
 	"maxdxlevel" "0"
 	"mindxlevel" "0"
-	"model" "models/props_moonbase/moon_tube_light01.mdl"
+	"model" "models/props_2fort/groundlight001.mdl"
+	"screenspacefade" "0"
 	"skin" "0"
-	"solid" "6"
-	"origin" "12 0 -32"
+	"solid" "0"
+	"origin" "0 0 -0.950523"
 	editor
 	{
 		"color" "255 255 0"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[10000 1000]"
+		"logicalpos" "[0 -1268]"
 	}
 }
 entity
 {
-	"id" "15"
-	"classname" "light"
-	"_constant_attn" "0"
-	"_distance" "0"
-	"_fifty_percent_distance" "0"
-	"_hardfalloff" "0"
-	"_light" "255 255 245 50"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_linear_attn" "0"
-	"_quadratic_attn" "1"
-	"_zero_percent_distance" "0"
+	"id" "6"
+	"classname" "env_sprite"
+	"disablereceiveshadows" "0"
+	"framerate" "10.0"
+	"GlowProxySize" "1"
+	"HDRColorScale" "1.0"
+	"maxdxlevel" "0"
+	"mindxlevel" "0"
+	"model" "sprites/glow01.spr"
+	"renderamt" "60"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "9"
+	"scale" "0.2"
 	"spawnflags" "0"
-	"style" "0"
-	"origin" "0 36 -8"
+	"origin" "0 0 0.0494766"
 	editor
 	{
-		"color" "220 30 220"
+		"color" "20 140 20"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
-		"logicalpos" "[1500 8000]"
+		"logicalpos" "[0 -1268]"
 	}
 }
 cameras
